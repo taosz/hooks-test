@@ -1,0 +1,25 @@
+{
+	"name": "hooks-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"ghooks": {
+		"post-receive": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taosz/hooks-test.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/taosz/hooks-test/issues"
+	},
+	"homepage": "https://github.com/taosz/hooks-test#readme",
+	"devDependencies": {
+		"ghooks": "^2.0.4"
+	}
+}
